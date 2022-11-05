@@ -12,6 +12,18 @@ import SignUpCompleted from './pages/signUpCompleted';
 import LogIn from './pages/login';
 
 
+import React from 'react';
+import {BrowserRouter, Routes, Route, Link,} from 'react-router-dom';
+
+
+
+
+import MyPage from './pages/myPage';
+import SignUp from './pages/signUp';
+import SignUpCompleted from './pages/signUpCompleted';
+import LogIn from './pages/login';
+
+
 function App() {
   return (
     <BrowserRouter>
