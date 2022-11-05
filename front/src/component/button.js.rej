@@ -1,9 +1,0 @@
-diff a/front/src/component/button.js b/front/src/component/button.js	(rejected hunks)
-@@ -1,6 +0,0 @@
--const Button = ({className,buttonContent, onClick}) => {
--    return (<button className = {className} onClick = {onClick}>{buttonContent}</button>
--    );
-- }
-- 
-- export default Button;
-\ No newline at end of file
