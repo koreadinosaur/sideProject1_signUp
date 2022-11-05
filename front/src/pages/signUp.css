@@ -1,0 +1,69 @@
+
+/* input {
+    height: 30px;
+    width: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+    margin: 5px;
+} */
+
+
+.signUp__wrapper {
+    width: 600px;
+    height: 500px;
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneNum1__input, .phoneNum2__input, .phoneNum3__input {
+    flex-grow: 1;
+    border: 1px solid blue;
+}
+
+.emailId__input, .emailDomain__input {
+    width: 80px;
+    border: 1px solid blue;
+}
+
+.text {
+    text-align: left;
+    margin-right: 15px;
+}
+
+
+.wrapper {
+    width: 400px;
+    border: 1px solid orange;
+    display: flex;
+}
+
+.tag {
+    border: 1px solid red;
+    width: 100px;
+
+}
+
+.gender__wrapper {
+    display:flex;
+}
+
+.gender__input {
+    border: 1px solid red;
+    display: flex;
+}
+
+.gender__click {
+    border: 1px solid blue;
+    width: 10px;
+    margin-left: 10px;
+}
+
+.id__validation__button {
+    width: 50px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}

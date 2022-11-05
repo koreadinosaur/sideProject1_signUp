@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+} 
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+} 
+
+input {
+    width: 230px;
+}
+
+.login__wrapper {
+    border: 3px solid red;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__wrapper {
+    border: 3px solid blue;
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+}
+
+.button__wrapper {
+    border: 3px solid blue;
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+}
+
+Button {
+    height: 20px;
+    width: 220px;
+}
+
