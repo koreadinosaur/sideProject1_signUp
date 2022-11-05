@@ -1,7 +1,7 @@
 module.exports = [{
     uuid: 1,
     username: "human_001",
-    password: 1234,
+    password: "1234",
     dateOfBirth: { year: 1500, month: 7, date: 7 },
     gender: "female",
     email: "human_001@gmail.com",
