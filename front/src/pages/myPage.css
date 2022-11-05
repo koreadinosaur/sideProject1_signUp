@@ -1,0 +1,36 @@
+.myPage__wrapper {
+    width: 600px;
+    height: 500px;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+select {
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.phoneNum1__input, .phoneNum2__input, .phoneNum3__input {
+    width: 10px;
+    border: 1px solid blue;
+}
+
+.text {
+    text-align: left;
+    margin-right: 15px;
+}
+
+
+.myPage__wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
