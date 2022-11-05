@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import Button from '../component/button';
 import InputLayout from '../component/inputLayout';
-import TextInput from '../component/Input';
+import TextInput from '../component/input';
 
 import './login.css';
 import { validate } from 'uuid';
